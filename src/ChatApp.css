@@ -1,0 +1,42 @@
+.ChatApp {
+  margin: 0 auto;
+  width: 500px;
+  height: 650px;
+  background-color: #ccc;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.ChatApp--messages {
+  height: 500px;
+  margin-bottom: 10px;
+  overflow-y: auto;
+}
+
+.ChatApp--message {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #ddd;
+}
+
+.ChatApp--form {
+  display: flex;
+  justify-content: center;
+}
+
+.ChatApp--form input {
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.ChatApp--form button {
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #ddd;
+}
